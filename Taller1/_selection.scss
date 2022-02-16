@@ -1,0 +1,56 @@
+@import "root";
+
+@mixin formulary($size){
+    font-size: $size;
+    border-radius: 1rem;
+    padding:0 .5rem;
+    margin-bottom: 1rem;
+}
+
+.selection{
+    width: 60%;
+    background-color: $white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}   
+.image-selection{
+    width: 45%;
+    img{
+        width: 100%;
+    }
+}
+.calculate-box{
+    width: 55%;
+    text-align: center;
+    form{
+        label{
+            @include formulary(4rem);
+        }
+        input{
+            width: 90%;
+            @include  formulary(1.5rem);
+        }
+        button{
+            @include formulary(1.5rem);
+            cursor: pointer;
+        }
+    }
+}
+.primary-button{
+    a{
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        background-color: $white;
+        color: $black;
+        letter-spacing: .2rem;
+        font-weight: bold;
+        border-radius: 1rem;
+        margin: 2rem;
+    }
+    a:hover{
+        background-color: $black;
+        color: $white;
+    }
+}

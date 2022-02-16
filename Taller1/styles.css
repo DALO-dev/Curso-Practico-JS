@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+main {
+  background-image: url(https://images.pexels.com/photos/2387819/pexels-photo-2387819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 8rem;
+}
+
+.hero p {
+  font-size: 2rem;
+}
+
+.options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  gap: 1rem;
+}
+
+.options .figure {
+  background-color: black;
+  border-radius: 1rem;
+}
+
+.options .figure a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: .2rem;
+  font-weight: bold;
+}
+
+.options .figure:hover {
+  background-color: white;
+}
+
+.options .figure:hover a:hover {
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.selection {
+  width: 60%;
+  background-color: white;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image-selection {
+  width: 45%;
+}
+
+.image-selection img {
+  width: 100%;
+}
+
+.calculate-box {
+  width: 55%;
+  text-align: center;
+}
+
+.calculate-box form label {
+  font-size: 4rem;
+  border-radius: 1rem;
+  padding: 0 .5rem;
+  margin-bottom: 1rem;
+}
+
+.calculate-box form input {
+  width: 90%;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 0 .5rem;
+  margin-bottom: 1rem;
+}
+
+.calculate-box form button {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 0 .5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.primary-button a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  letter-spacing: .2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.primary-button a:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
