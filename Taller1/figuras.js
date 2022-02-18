@@ -40,9 +40,3 @@ function areaTriangulo(){
     document.getElementById("result").innerHTML = "The area is " + area.toFixed(2);
   }
 }
-//TRIANGULO
-function calculosTriangulo(lado1,lado2,base,altura){
-  perimetro = lado1 + lado2 + base;
-  area = (base*altura)/2;
-  return [perimetro,area];
-}
