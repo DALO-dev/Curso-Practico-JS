@@ -1,0 +1,47 @@
+@import "root";
+@mixin inputs {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: $green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    margin: 1rem;
+    h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+}
+main{
+    form{
+        background-color: $dark-blue;
+        padding: 1rem;
+        border-radius: .5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        label{
+            @include inputs();
+        }
+        input{
+            @include inputs();
+            border: none;
+            border-radius: .5rem;
+            background-color: $yellow;
+            color: $blue;
+            font-weight: 700;
+        }
+    }
+}
+.results{
+    text-align: center;
+    color: $yellow;
+}

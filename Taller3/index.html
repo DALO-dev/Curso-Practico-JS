@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./calculoMuestral.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Statistics calculator</h1>
+    </header>
+    <main>
+        <form>
+            <label for="list">Insert a list of numbers separated with a space " "</label>
+            <input type="text" id="list">
+            <input type="button" value="Calculate" onclick="calculate()">
+        </form>
+        <div class="results">
+            <h1 id="mean"></h1>
+            <h1 id="median"></h1>
+            <h1 id="mode"></h1>
+        </div>
+    </main>
+</body>
+</html>
